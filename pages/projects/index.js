@@ -1,7 +1,7 @@
 // our-domain.com/projects
 import ProjectList from "../../components/projects/ProjectList";
 
-const PROJECTS = [
+const DUMMY_PROJECTS = [
   {
     id: "p1",
     title: "React Meetups",
@@ -49,7 +49,8 @@ const PROJECTS = [
 ];
 
 function ProjectsPage() {
-  return <ProjectList projects={PROJECTS} />;
+  return <div>PROJECTS</div>;
+  //<ProjectList projects={DUMMY_PROJECTS} />;
 }
 
 export default ProjectsPage;
