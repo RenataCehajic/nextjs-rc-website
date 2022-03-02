@@ -1,4 +1,5 @@
 // our-domain.com/projects
+import MainNavigation from "../../components/layout/MainNavigation";
 import ProjectList from "../../components/projects/ProjectList";
 
 const DUMMY_PROJECTS = [
@@ -49,7 +50,12 @@ const DUMMY_PROJECTS = [
 ];
 
 function ProjectsPage() {
-  return <div>PROJECTS</div>;
+  return (
+    <div>
+      <MainNavigation />
+      PROJECTS
+    </div>
+  );
   //<ProjectList projects={DUMMY_PROJECTS} />;
 }
 
