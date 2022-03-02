@@ -1,46 +1,61 @@
 .header {
   width: 100%;
-  height: 10rem;
+  height: 150px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   background-color: white;
   padding: 0 10%;
 }
 
-.logo {
-  font-size: 11px;
-  color: #333;
-  font-weight: bold;
-}
-
-.email {
-  font-size: 20px;
+.about {
+  display: flex;
+  margin-top: 50px;
+  margin-left: -620px;
 }
 
 .header ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
   display: flex;
-  align-items: baseline;
+  list-style: none;
+  flex-direction: row;
 }
 
 .header li {
-  margin-left: 3rem;
+  display: flex;
+  width: 100px;
+}
+
+.header li a {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .header a {
+  margin-left: 400px;
   text-decoration: none;
   font-size: 11px;
   color: #999;
+  letter-spacing: 2px;
 }
 
 .emailBold {
   color: black;
 }
-.header a:hover,
+.header a:hover {
+  text-decoration: underline;
+}
 .header a:active,
-.header a.active {
-  color: #999;
+.header a:active {
+  color: black;
+  text-decoration: underline;
+}
+.header a:focus {
+  text-decoration: underline;
+  font-style: italic;
+}
+.header a:visited {
+  text-decoration: underline;
 }
