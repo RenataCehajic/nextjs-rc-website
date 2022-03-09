@@ -53,6 +53,7 @@ function ProjectsPage() {
   return (
     <div>
       <MainNavigation />
+      <ProjectList projects={DUMMY_PROJECTS} />
       PROJECTS
     </div>
   );

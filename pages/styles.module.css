@@ -1,12 +1,27 @@
+.about {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  margin-left: 300px;
+}
+
 .image {
-  margin-top: 60px;
-  margin-left: 400px;
+  display: flex;
+  margin-right: 40px;
+  margin-top: 70px;
+}
+
+.intro {
+  display: flex;
+  max-width: 100%;
+  font-size: 24px;
+  margin-top: 40px;
+  font-weight: 300;
 }
 
 .vesna {
   font-style: italic;
   font-size: 13px;
-  margin-left: 675px;
+  margin-left: 500px;
+  margin-top: 5px;
 }
-
-/* text-right m-[5px] text-[13px] italic */
