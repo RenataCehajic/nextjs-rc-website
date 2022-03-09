@@ -32,7 +32,7 @@ function HomePage() {
             </Link>
             . Sometimes I{" "}
             <div>
-              <Link href="/https://hardlopenamsterdam.nl/">
+              <Link href="https://hardlopenamsterdam.nl/">
                 <a className="link">
                   <strong>run</strong>
                 </a>
