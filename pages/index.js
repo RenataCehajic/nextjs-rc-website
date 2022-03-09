@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Fragment } from "react";
 import MainNavigation from "../components/layout/MainNavigation";
 import image from "../public/images/profilefoto/RenatasFB.jpg";
-import classes from "./styles.module.css";
+import classes from "./HomePage.module.css";
 
 function HomePage() {
   return (
@@ -22,7 +22,7 @@ function HomePage() {
             </a>
             ,{" "}
             <a className="link" href="https://www.tatasteeleurope.com/nl/home">
-              <strong>analyze big IT systems</strong>
+              <strong>analyze</strong> big IT systems
             </a>
             , and{" "}
             <Link href="/projects">
