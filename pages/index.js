@@ -38,9 +38,9 @@ function HomePage() {
                 </a>
               </Link>{" "}
               or{" "}
-              <Link href="/drawings">
+              <Link href="https://www.pagat.com/tarot/sltarok.html">
                 <a className="link">
-                  <strong>play chess</strong>
+                  play<strong> tarok</strong>
                 </a>
               </Link>
               , and in the past 10 years I've been actively{" "}
