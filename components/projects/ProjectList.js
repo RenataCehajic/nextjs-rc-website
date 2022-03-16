@@ -14,6 +14,8 @@ function ProjectList(props) {
             title={project.title}
             image={project.image}
             description={project.description}
+            websiteUrl={project.websiteUrl}
+            codeUrl={project.codeUrl}
           />
         );
       })}

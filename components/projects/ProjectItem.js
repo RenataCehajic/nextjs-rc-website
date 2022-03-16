@@ -14,8 +14,12 @@ function ProjectItem(props) {
         <p style={{ display: "none" }}>{props.description}</p>
       </div>
       <div style={{ width: "250px" }} className={classes.button}>
-        <button className={classes.button_1}>Website</button>
-        <button className={classes.button_1}>Code</button>
+        <a className="link" href={props.websiteUrl}>
+          <button className={classes.button_1}>Website</button>
+        </a>
+        <a className="link" href={props.codeUrl}>
+          <button className={classes.button_1}>Code</button>
+        </a>
       </div>
     </div>
   );
