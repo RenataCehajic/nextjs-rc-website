@@ -1,16 +1,74 @@
+/* .item {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  gap: 20px;
+} */
+
 .item {
-  margin: 1rem 0;
+  display: flex;
+  width: 300px;
 }
 
-.image {
+.button {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button button {
+  margin-left: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* CSS */
+.button_1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", sans-serif;
+  border-radius: 6px;
+  border: none;
+
+  background: #6e6d70;
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1),
+    inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5),
+    0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+  color: #dfdedf;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button_1:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2),
+    0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px #dfdedf;
+  outline: 0;
+}
+
+.button_1:hover {
+  background-image: linear-gradient(
+    90deg,
+    #474747 100%,
+    #474747 49%,
+    #474747 80%,
+    #474747 100%
+  );
+  animation: slidebg 5s linear infinite;
+}
+
+/* .image {
   width: 100%;
   height: 20rem;
   overflow: hidden;
   border-top-right-radius: 6px;
   border-top-left-radius: 6px;
+  display: flex;
+  flex-direction: row;
 }
 
 .image img {
   width: 100%;
   object-fit: cover;
-}
+} */

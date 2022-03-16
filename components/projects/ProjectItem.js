@@ -5,12 +5,18 @@ import classes from "./ProjectItem.module.css";
 
 function ProjectItem(props) {
   return (
-    <div className={classes.item}>
-      <h1 style={{ display: "none" }}>{props.title}</h1>
-      <div className={classes.image}>
-        <Image src={props.image} alt={props.title} width={450} height={300} />
+    <div>
+      <div className={classes.item}>
+        <h1 style={{ display: "none" }}>{props.title}</h1>
+        <div className={classes.image}>
+          <Image src={props.image} alt={props.title} width={280} height={250} />
+        </div>
+        <p style={{ display: "none" }}>{props.description}</p>
       </div>
-      <p style={{ display: "none" }}>{props.description}</p>
+      <div style={{ width: "250px" }} className={classes.button}>
+        <button className={classes.button_1}>Website</button>
+        <button className={classes.button_1}>Code</button>
+      </div>
     </div>
   );
 }
