@@ -67,10 +67,3 @@ function HomePage() {
 }
 
 export default HomePage;
-
-// <ul>
-//   <li>
-//     <Link href="/projects">NextJS Is A Great Framework</Link>
-//   </li>
-//   <li>Something Else</li>
-// </ul>;

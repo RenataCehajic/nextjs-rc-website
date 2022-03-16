@@ -35,27 +35,68 @@
 
 .header a {
   margin-left: 400px;
-  text-decoration: none;
   font-size: 11px;
   color: #999;
   letter-spacing: 2px;
 }
 
+/*
+.header li:active {
+  display: flex;
+  width: 100px;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+
+
+.header a {
+  margin-left: 400px;
+  text-decoration: none;
+  font-size: 11px;
+  color: #999;
+  letter-spacing: 2px;
+} */
+
 .emailBold {
   color: black;
 }
-.header a:hover {
-  text-decoration: underline;
-}
-.header a:active,
-.header a:active {
+
+/* .header a:active {
   color: black;
   text-decoration: underline;
+  font-style: italic;
 }
 .header a:focus {
   text-decoration: underline;
   font-style: italic;
 }
+
+.header a:after {
+  color: black;
+  text-decoration: underline;
+  font-style: italic;
+}
+
 .header a:visited {
   text-decoration: underline;
+  font-style: italic;
+} 
+.header b {
+  text-decoration: underline;
+  font-style: italic;
+} */
+
+@media (max-width: 768px) {
+  .nav {
+    width: 60%;
+  }
+  .header nav {
+    width: 60%;
+  }
+}
+
+.active {
+  text-decoration: underline;
+  font-style: italic;
 }
