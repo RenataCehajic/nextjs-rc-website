@@ -88,7 +88,21 @@ function HomePage() {
               of the political world, or playing with my daughter, my best{" "}
               <item className={classes.item2}>treasure</item> in the world.
             </p>
-            <p className={classes.personal}> &emsp;Here's my CV.</p>
+            <p className={classes.personal}>
+              {" "}
+              &emsp;Here's my{" "}
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                className="link indent-0"
+                href="https://content.klve.nl/s/cv.pdf"
+              >
+                <span className={classes.linkToCv}>
+                  <strong>CV</strong>
+                </span>
+              </a>
+              .
+            </p>
           </p>
         </div>
       </div>
