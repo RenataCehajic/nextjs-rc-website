@@ -65,18 +65,16 @@ function HomePage() {
               href="https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow"
             >
               <strong>interesting things</strong>
-            </a>{" "}
+            </a>
             .
             <p className={classes.personal}>
               {" "}
               &emsp;Some things that <strong>fascinate</strong> me are, among
               others: <item className={classes.item}>1</item>
-              <em>Dutch weather</em> (being unpredictable and changeable <br />{" "}
-              makes me curious about what is to come, so that I can respond to
-              it);
+              <em>Dutch weather</em> (being unpredictable and changeable makes
+              me curious about what is to come, so that I can respond to it);
               <item className={classes.item}>2</item>
-              <em>People</em> (and in particular history and culture)
-              <br />
+              <em>People</em> (and in particular history and culture);
               <item className={classes.item}>3</item>
               <em>Code and IT analysis</em> (a topic I previously studied on my
               own and now practise pragmatically).
@@ -86,9 +84,8 @@ function HomePage() {
               &emsp;You will typically find me: doing{" "}
               <item className={classes.item2}>IT analysis</item>, writing
               <item className={classes.item2}>JS code</item>, watching{" "}
-              <item className={classes.item2}>films</item>, <br />
-              trying to make sense of the political world, or playing with my
-              daughter, <br /> my best{" "}
+              <item className={classes.item2}>films</item>, trying to make sense
+              of the political world, or playing with my daughter, my best{" "}
               <item className={classes.item2}>treasure</item> in the world.
             </p>
             <p className={classes.personal}> &emsp;Here's my CV.</p>
