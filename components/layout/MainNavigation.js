@@ -5,7 +5,7 @@ import classes from "./MainNavigation.module.css";
 function MainNavigation() {
   const router = useRouter();
   const path = router.pathname;
-  console.log(path === "/");
+
   return (
     <header className={classes.header}>
       <div className={classes.nav}>
@@ -14,24 +14,22 @@ function MainNavigation() {
           .cehajic@gmail.com
         </a>
       </div>
-      <nav>
-        <div className={classes.about}>
-          <ul>
-            <li>
-              <Link href="/">
-                <a className={path === "/" ? classes.active : ""}>about.</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/projects">
-                <a className={path === "/projects" ? classes.active : ""}>
-                  projects.
-                </a>
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </nav>
+      <div className={classes.about}>
+        <ul>
+          <li>
+            <Link href="/">
+              <a className={path === "/" ? classes.active : ""}>about.</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/projects">
+              <a className={path === "/projects" ? classes.active : ""}>
+                projects.
+              </a>
+            </Link>
+          </li>
+        </ul>
+      </div>
     </header>
   );
 }
