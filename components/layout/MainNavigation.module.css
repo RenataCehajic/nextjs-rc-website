@@ -1,9 +1,9 @@
 .header {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   margin-top: 60px;
-  margin-left: 550px;
+  margin-left: 30%;
+  flex-wrap: wrap;
 }
 
 .nav {
@@ -19,19 +19,23 @@
   margin-top: 5px;
 }
 
+.about a {
+  margin-right: 10px;
+}
+
 .emailBold {
   color: black;
 }
 
 @media (max-width: 768px) {
   .nav {
-    width: 60%;
+    display: flex;
+    justify-content: flex-start;
   }
-  .header nav {
-    width: 60%;
-  }
+
   .about {
-    width: 60%;
+    display: flex;
+    font-size: 12px;
   }
 }
 

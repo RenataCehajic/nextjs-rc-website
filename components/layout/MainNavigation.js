@@ -21,7 +21,7 @@ function MainNavigation() {
 
         <Link href="/projects">
           <a className={path === "/projects" ? classes.active : ""}>
-            &emsp;projects.
+            projects.
           </a>
         </Link>
       </div>
