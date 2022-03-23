@@ -15,20 +15,15 @@ function MainNavigation() {
         </a>
       </div>
       <div className={classes.about}>
-        <ul>
-          <li>
-            <Link href="/">
-              <a className={path === "/" ? classes.active : ""}>about.</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/projects">
-              <a className={path === "/projects" ? classes.active : ""}>
-                projects.
-              </a>
-            </Link>
-          </li>
-        </ul>
+        <Link href="/">
+          <a className={path === "/" ? classes.active : ""}>about.</a>
+        </Link>
+
+        <Link href="/projects">
+          <a className={path === "/projects" ? classes.active : ""}>
+            &emsp;projects.
+          </a>
+        </Link>
       </div>
     </header>
   );

@@ -1,50 +1,22 @@
 .header {
   display: flex;
-  background-color: white;
-  justify-content: flex-start;
   flex-wrap: wrap;
-  margin-left: 100px;
-  margin-top: 50px;
+  flex-direction: column;
+  margin-top: 60px;
+  margin-left: 550px;
 }
 
 .nav {
   display: flex;
-  margin-top: 50px;
-  max-width: 50%;
-  max-height: 50%;
-  flex-direction: column;
-}
-.about {
-  display: flex;
-  margin-top: 50px;
-  margin-left: -620px;
-}
-
-.header ul {
-  display: flex;
-  list-style: none;
-  flex-direction: row;
-}
-
-.header li {
-  display: flex;
-  width: 100px;
-}
-
-.header li a {
-  font-size: 24px;
-  font-weight: bold;
-  color: black;
-  margin-top: 5px;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.header a {
-  margin-left: 400px;
   font-size: 11px;
   color: #999;
   letter-spacing: 2px;
+}
+.about {
+  display: flex;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 5px;
 }
 
 .emailBold {
@@ -56,6 +28,9 @@
     width: 60%;
   }
   .header nav {
+    width: 60%;
+  }
+  .about {
     width: 60%;
   }
 }
