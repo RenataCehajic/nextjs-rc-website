@@ -83,9 +83,10 @@ function HomePage() {
               {" "}
               &emsp;You will typically find me: doing{" "}
               <item className={classes.item2}>IT analysis</item>, writing
-              <item className={classes.item2}>JS code</item>, watching{" "}
-              <item className={classes.item2}>films</item>, trying to make sense
-              of the political world, or playing with my daughter, my best{" "}
+              <item className={classes.item2}>JS code</item>, watching cult
+              classic
+              <item className={classes.item2}>movies</item>, trying to make
+              sense of the political world, or playing with my daughter, my{" "}
               <item className={classes.item2}>treasure</item> in the world.
             </p>
             <p className={classes.personal}>

@@ -71,3 +71,19 @@
   border-bottom: 2px solid black;
   padding: 5px;
 }
+
+@media (max-width: 768px) {
+  .introduction {
+    display: flex;
+    font-size: 12px;
+  }
+
+  .personal {
+    font-size: 8px;
+    line-height: 12px;
+  }
+
+  .vesna {
+    font-size: 8px;
+  }
+}
