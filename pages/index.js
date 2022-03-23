@@ -13,8 +13,11 @@ function HomePage() {
       <div className={classes.main}>
         <div className={classes.image}>
           <Image src={image} alt="RenatasFB" width="450" height="300" />
+          <p className={classes.vesna}>
+            photo taken in New York by Vesna, my love
+          </p>
         </div>
-        <div className={classes.intro}>
+        <div className={classes.introduction}>
           <p>
             Hi there!&emsp;I'm Renata. I{" "}
             <a className="link" href="https://www.wearetheguild.net/">
@@ -30,28 +33,26 @@ function HomePage() {
                 <strong>sport</strong>
               </a>
             </Link>
-            . Sometimes I{" "}
-            <div>
-              <Link href="https://hardlopenamsterdam.nl/">
-                <a className="link">
-                  <strong>run</strong>
-                </a>
-              </Link>{" "}
-              or{" "}
-              <Link href="https://www.pagat.com/tarot/sltarok.html">
-                <a className="link">
-                  play<strong> tarok</strong>
-                </a>
-              </Link>
-              , and in the past 10 years I've been actively{" "}
-              <a
-                className="link"
-                href="https://www.languagepartners.nl/blog/nederlands-nt2/10-interesting-facts-about-the-dutch-language/"
-              >
-                learning <strong>Dutch</strong>.
+            . Sometimes I
+            <Link href="https://hardlopenamsterdam.nl/">
+              <a className="link">
+                <strong> run</strong>
               </a>
-            </div>
-            Also I studied{" "}
+            </Link>{" "}
+            or{" "}
+            <Link href="https://www.pagat.com/tarot/sltarok.html">
+              <a className="link">
+                play<strong> tarok</strong>
+              </a>
+            </Link>
+            , and in the past 10 years I've been actively{" "}
+            <a
+              className="link"
+              href="https://www.languagepartners.nl/blog/nederlands-nt2/10-interesting-facts-about-the-dutch-language/"
+            >
+              practising <strong>Dutch</strong>.
+            </a>{" "}
+            Also, I studied{" "}
             <a
               className="link"
               href="https://vu.nl/nl/onderwijs/master/business-administration"
@@ -66,7 +67,7 @@ function HomePage() {
               <strong>interesting things</strong>
             </a>{" "}
             .
-            <p className={classes.fascinate}>
+            <p className={classes.personal}>
               {" "}
               &emsp;Some things that <strong>fascinate</strong> me are, among
               others: <item className={classes.item}>1</item>
@@ -80,7 +81,7 @@ function HomePage() {
               <em>Code and IT analysis</em> (a topic I previously studied on my
               own and now practise pragmatically).
             </p>
-            <p className={classes.fascinate}>
+            <p className={classes.personal}>
               {" "}
               &emsp;You will typically find me: doing{" "}
               <item className={classes.item2}>IT analysis</item>, writing
@@ -90,12 +91,9 @@ function HomePage() {
               daughter, <br /> my best{" "}
               <item className={classes.item2}>treasure</item> in the world.
             </p>
-            <p className={classes.fascinate}> &emsp;Here's my CV.</p>
+            <p className={classes.personal}> &emsp;Here's my CV.</p>
           </p>
         </div>
-      </div>
-      <div className={classes.vesna}>
-        photo taken in New York by Vesna, my love
       </div>
     </Fragment>
   );
