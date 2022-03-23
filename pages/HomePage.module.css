@@ -1,7 +1,6 @@
-.about {
+.main {
   display: flex;
   width: 100%;
-  flex-direction: row;
   margin-left: 300px;
 }
 
@@ -24,4 +23,26 @@
   font-size: 13px;
   margin-left: 500px;
   margin-top: 5px;
+}
+
+.item {
+  border-radius: 50%;
+  border: solid 0.5px black;
+  padding: 2px;
+}
+
+.em {
+  font-style: italic;
+}
+
+.fascinate {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.item2 {
+  border: solid 0.5px black;
+  background-color: lightgray;
+  border-radius: 40%;
+  padding: 5px;
 }
