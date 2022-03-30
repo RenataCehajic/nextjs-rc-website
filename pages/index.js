@@ -8,7 +8,7 @@ import classes from "./HomePage.module.css";
 
 function HomePage() {
   return (
-    <Fragment>
+    <div className={classes.container}>
       <MainNavigation />
       <div className={classes.main}>
         <div className={classes.image}>
@@ -107,7 +107,7 @@ function HomePage() {
           </p>
         </div>
       </div>
-    </Fragment>
+    </div>
   );
 }
 
