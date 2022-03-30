@@ -1,31 +1,37 @@
 .container {
+  display: flex;
   width: 100%;
   margin: 10px 0 10px 0;
   padding: 0 10px 0 10px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .main {
   display: flex;
-  flex-wrap: wrap;
-  margin-left: 20%;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .image {
   display: flex;
   margin-top: 8%;
-  max-width: 50%;
-  max-height: 50%;
   flex-direction: column;
 }
 
 .introduction {
   display: flex;
-  max-width: 50%;
-  max-height: 50%;
   font-size: 24px;
   margin-top: 6%;
   font-weight: 300;
   margin-left: 5%;
+  max-width: 650px;
 }
 
 .vesna {
@@ -79,16 +85,29 @@
 }
 
 @media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+  }
+
   .introduction {
     display: flex;
-    font-size: 12px;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 0;
+  }
+
+  .section {
+    flex-direction: column;
   }
 
   .personal {
-    font-size: 8px;
-    line-height: 12px;
+    font-size: 16px;
+    margin: 0;
   }
 
+  .image {
+    margin-top: 10px;
+  }
   .vesna {
     font-size: 8px;
   }
